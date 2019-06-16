@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+img{
+	display: none;
+}
+
+header{
+	height: 10vh;
+}
+
+
+
+
+
+body{
+	margin: 0;
+}
+
+
+.effect-apollo img{
+	position: absolute;
+	top: 200px;
+}
+
+
+.navbar	{	
+	display: block;
+	padding: 14px;
+	background-color: #FFFFFF;
+	text-indent: 16px;
+	list-style: none;
+	position: relative;
+	top: 20px;
+	margin-right: 30px;
+	text-decoration: none;
+	
+}
+
+article{
+	margin-left: 20px;
+}
+
+.navbar a{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	left: 40px;
+	position: absolute;
+	margin-left: -20px;
+
+}
+
+.eksempel1{
+	box-shadow:5px 5px 5px #999;
+}
+.fullscreen{
+	
+	height: 90vh;
+	padding: 5vh;
+	box-sizing: border-box;
+	top: 30px;
+	position: relative;
+	bottom: 3vh;
+	background-color:#E81B1F;
+	transform: translateX(50-);
+	
+}
+
+span{
+    display: none;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+
+p.three:hover span{
+    display: block;
+	text-decoration: none;
+	text-decoration-color: black;
+	
+}
+
+p.two:hover span{
+    display: block;
+}
+
+p.two, p.three{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	text-decoration:none; 
+	
+}
+
+figure{
+	position: absolute;
+	left: 50vw;
+	transform: translateX(-50%)
+	
+}
+
+#Pandora{
+	text-decoration: none;
+	color: black;
+}
+
+#Emballage{
+	text-decoration: none;
+	color:black;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style_portfolio.css">
+<title>Landingpage</title>
+</head>
+	
+<header class="navbar">
+	<ul class="navbar">
+  		<li><a href="Landingpage.html">Home</a></li>
+	</ul>
+	
+	</header>
+<body>
+<p class="three" >
+<a id="Pandora"href="pandoragarden.html">PANDORA Garden</a></p>
+
+
+	<p class="two">
+		<a id="Emballage" href="emballage.html">Emballage</a></p>
+<figure>
+	<img id="Pandora_img"src="Billeder/PANDORA_mockup.jpg" width="500"/>
+	<img id="Emballage_img" src="Billeder/Emballage_photos/Boxmockup.jpg" width="500" />
+	
+	</figure>
+
+
+<div>
+	
+	
+	</div>	
+	<script>
+		document.querySelector("#Pandora").addEventListener("mouseover", function(){
+			document.querySelector("#Pandora_img").style.display="inline";
+		})
+		document.querySelector("#Pandora").addEventListener("mouseout", function(){
+			document.querySelector("#Pandora_img").style.display="none";
+		})
+		
+			document.querySelector("#Emballage").addEventListener("mouseover", function(){
+			document.querySelector("#Emballage_img").style.display="inline";
+		})
+		document.querySelector("#Emballage").addEventListener("mouseout", function(){
+			document.querySelector("#Emballage_img").style.display="none";
+		})
+	
+	
+	</script>
+</body>
+</html>
